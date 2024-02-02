@@ -21,7 +21,6 @@ test('creditCardDeclinedTest1', async ({ page }) => {
   const donationPage = new DonationPage(page);
   const donationAmount = '100'
 
-
   await donationPage.selectMonthlyPayment()
   await donationPage.selectCurrency(currencies.usd)
   await donationPage.checkCurrency(currencies.usd)
@@ -47,7 +46,6 @@ test('creditCardDeclinedTest1', async ({ page }) => {
 test('creditCardDeclinedTest2', async ({ page }) => {
   const donationPage = new DonationPage(page);
   const donationAmount = '100'
-
 
   await donationPage.selectMonthlyPayment()
   await donationPage.selectCurrency(currencies.usd)
