@@ -18,3 +18,4 @@
 1. screenShouldBeOpen()
 2. navigateToUrl() move out from pages
 3. DashboardPage divide into small classes
+4. delete commented code
