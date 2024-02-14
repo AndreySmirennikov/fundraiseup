@@ -13,3 +13,8 @@
 1. Setup allure: npm install -g allure-commandline --save-dev
 2. Run tests
 3. Run allure report: npx allure serve allure-results
+
+   TODO
+1. Screen should be open
+2. navigateToUrl move out from pages
+3. DashboardPage divide into small classes
